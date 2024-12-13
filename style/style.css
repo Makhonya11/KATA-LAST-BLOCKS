@@ -197,6 +197,17 @@ padding: 16px;
 
 .feedback-wrapper, .callback-wrapper {
     max-width: 340px;
+    background-color:white;
+    height:100%;
+    position:absolute;
+    top:0;
+    right:-440px;
+    transition-duration:3s;
+    transition-delay:1s;
+    transform-timing-function:ease-in;
+}
+open {
+    transform: translateX (-440px);
 }
 .feedback-form, .callback-form {
     display: flex;
