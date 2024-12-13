@@ -205,6 +205,7 @@ padding: 16px;
     transition-duration:3s;
     transition-delay:1s;
     transform-timing-function:ease-in;
+    z-index: 2;
 }
 open {
     transform: translateX (-440px);
