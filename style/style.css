@@ -207,7 +207,7 @@ padding: 16px;
     transform-timing-function:ease-in;
     z-index: 2;
 }
-open {
+.open {
     transform: translateX (-440px);
 }
 .feedback-form, .callback-form {
