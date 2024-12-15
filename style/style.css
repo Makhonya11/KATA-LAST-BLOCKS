@@ -30,6 +30,7 @@
 .body {
 background-color: #f1f1f1;
 padding-top:15px;
+
 }
 .devices-heading, .price-heading {
     font-family: "TTLakes Medium" ;
@@ -199,16 +200,17 @@ padding: 16px;
     max-width: 340px;
     background-color:white;
     height:100%;
-    position:absolute;
+    position:fixed;
     top:0;
-    right:-440px;
-    transition-duration:3s;
-    transition-delay:1s;
-    transform-timing-function:ease-in;
+    right: -440px;
+    transition-duration:400ms;
+    
+    transition-timing-function:ease-in;
     z-index: 2;
+    
 }
 .open {
-    transform: translateX (-440px);
+    transform: translateX(-440px);
 }
 .feedback-form, .callback-form {
     display: flex;
@@ -325,7 +327,7 @@ font-size: 14px;
     
     td {
         padding: 16px;
-        /*border-top: 1px solid #EAEAEA;*/
+        
         
     }
     tr {
