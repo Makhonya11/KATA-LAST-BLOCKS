@@ -12,7 +12,7 @@
            display: flex;
            justify-content: start; 
            align-items: center;
-           position: relative;
+           
         }
         .header__col-right{
             width: 50%;
@@ -22,12 +22,12 @@
          }
         
          .header__logo{
-            margin-left: 40px;
+            
          }
          .header__menu{
             position: relative;
             background: url(../images/back/burger.svg) no-repeat center;
-            
+        
          }
          
          .repair-icon{
@@ -192,9 +192,12 @@
             display: block;
             margin-left: 16px;
         }
+        .header .header__call, .header .header__chat {
+            margin-right: 0;
+        }
         .header__call{
             background: url(../images/back/call.svg) no-repeat center;
-            
+            margin-right: 0;
          }
          .header__chat{
             background: url(../images/back/chat.svg) no-repeat center;
