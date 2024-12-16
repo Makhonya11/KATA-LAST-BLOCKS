@@ -35,9 +35,10 @@ padding-top:15px;
 .devices-heading, .price-heading {
     font-family: "TTLakes Medium" ;
     color: #7E7E82;
-    margin-bottom: 32px;
-    margin-left:16px;
-    margin-top: 16px;
+    margin: 32px 16px 24px 16px;
+    display: block;
+    padding: 10px 0;
+    background: linear-gradient(to right, #F8F8F8, #FFFFFF 100%);
 }
 .devices-list {
 display: flex;
