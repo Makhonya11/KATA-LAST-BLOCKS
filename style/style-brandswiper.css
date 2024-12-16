@@ -2,8 +2,10 @@
 .brands>p {
     font-family: "TTLakes Medium" ;
     color: #7E7E82;
-    margin-bottom: 40px;
-    margin-left:16px;
+    margin: 32px 0 24px 16px;
+    display: block;
+    padding: 10px 0;
+    background: linear-gradient(to right, #F8F8F8, #FFFFFF 100%);
 }
 .brand-list {
 display: flex;
