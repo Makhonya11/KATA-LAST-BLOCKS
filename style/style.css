@@ -133,7 +133,7 @@ padding: 16px;
     height: 32px;
     border-radius: 16px;
     border: none;
-    background: #FF3E79 url(/images/dropdownwhite.png) no-repeat 100px 50%;
+    background: #FF3E79 url(../images/dropdownwhite.png) no-repeat 100px 50%;
     color: #FFFFFF;
     font-family: "TTLakes Medium" ;
     font-size: 12px;
@@ -416,6 +416,9 @@ font-size: 14px;
 }
     .devices-list {
 margin-left: 32px;
+}
+.offer {
+    margin-left: 32px;
 }
     .page-footer {
     margin: 40px 32px 20px;
