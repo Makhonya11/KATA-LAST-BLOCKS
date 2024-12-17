@@ -93,7 +93,10 @@ display: block;
 /*BREAKPOINT 1120px*/
 @media screen and (min-width: 1120px)
 {
-    
+    .brand-list {
+        column-gap: 32px;
+        margin-left: 32px;
+    }
     .unhidden {
         display: flex;
     }

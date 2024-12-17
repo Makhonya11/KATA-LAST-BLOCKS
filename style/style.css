@@ -29,7 +29,6 @@
 }
 .body {
 background-color: #F8F8F8;
-padding-top:15px;
 }
 .devices-heading, .price-heading {
     font-family: "TTLakes Medium" ;
@@ -197,20 +196,21 @@ padding: 16px;
 /*------FEEDBACK MODAL-------------*/
 
 .feedback-wrapper, .callback-wrapper {
-    max-width: 320px;
+    width: 100%;
+    max-width: 440px;
     background-color:white;
     height:100%;
     position:fixed;
     top:0;
     right: -440px;
     transition-duration:400ms;
-    
     transition-timing-function:ease-in;
     z-index: 2;
-    
+    opacity: 0;
 }
 .open {
     transform: translateX(-440px);
+    opacity: 1;
 }
 .feedback-form, .callback-form {
     display: flex;
@@ -406,7 +406,9 @@ font-size: 14px;
     .offerta {
         max-width: 330px;
     }
-    .feedback-wrapper, .callback-wrapper {
-        max-width: 440px;
+    .close {
+        position: absolute;
+        left: -80px;
+        
     }
 }

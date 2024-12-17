@@ -9,6 +9,7 @@ burger.addEventListener('click', function(){
     sideBar.classList.add('sidebar-trans');
     background.style.display = 'block';
     body.style.overflowY = 'hidden';
+    sideBar.style.overflowY = 'auto';
 });
 close.addEventListener('click', function(){
     sideBar.classList.remove('sidebar-trans');
