@@ -411,4 +411,9 @@ font-size: 14px;
         left: -80px;
         
     }
+    .devices-heading, .price-heading {
+    margin: 32px 0 24px 32px;
+}
+    .devices-list {
+margin-left: 32px;
 }
