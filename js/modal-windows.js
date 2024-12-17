@@ -13,7 +13,7 @@ feedbacks.forEach(function (feedback) {
       exit.classList.add('exit');
     });
     body.style.overflowY = 'hidden';
-    feedbackWindow.style.overflowY = 'auto';
+    feedbackWindow.style.overflowY = 'visible';
   });
 });
 
@@ -26,7 +26,7 @@ callbacks.forEach(function (callback) {
       exit.classList.add('exit');
     });
     body.style.overflowY = 'hidden';
-    callbackWindow.style.overflowY = 'auto';
+    callbackWindow.style.overflowY = 'visible';
   });
 });
 exits.forEach(function (exit) {
