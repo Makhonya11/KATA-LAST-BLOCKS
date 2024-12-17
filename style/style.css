@@ -197,7 +197,7 @@ padding: 16px;
 /*------FEEDBACK MODAL-------------*/
 
 .feedback-wrapper, .callback-wrapper {
-    max-width: 340px;
+    max-width: 320px;
     background-color:white;
     height:100%;
     position:fixed;
